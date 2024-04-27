@@ -1,0 +1,81 @@
+@import './../../../assets/styles/variables';
+@import './../../../assets/styles/mixins-media';
+::ng-deep .main-about{
+  .profile-summary{
+      @include sm {
+          flex-direction: column-reverse;
+      }
+      @include lg {
+          flex-direction: row;
+      }
+      .profile-photo-body{
+          width: 350px;
+          height: 350px;
+          padding: 30px;
+          object-fit: scale-down;
+      }
+      margin: 20 0 20 0;
+      border: 1px solid $borderPrimaryColor;
+      padding: 40px;
+  }
+  .introduction{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+}
+.main-resume{
+    background-color: $bgTertiaryColor;
+    .resume-contact-summary{
+        i{
+            padding-left: 15px;
+            padding-right: 10px;
+        }
+    }
+    .section-wrapper{
+      padding: 40px;
+      border: 1px solid $borderPrimaryColor;
+        .experiences{
+            border-left: 2px solid $themeColor;
+            position: relative;
+            padding:0;
+            .timeline-exp{
+                .job-title, .job-information{
+                    position: relative;
+                    top: -8px;
+                }
+                position: relative;
+                padding-left: 15px;
+                padding-bottom: 20px;
+                .job-information{
+                    padding-left: 15px;
+                    p{
+                        margin: 5 0 5 0;
+                    }
+                    i{
+                        text-align: center;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+            .timeline-exp::before {
+                content: "";
+                position: absolute;
+                width: 16px;
+                height: 16px;
+                border-radius: 50px;
+                left: -9px;
+                top: 0;
+                background: $themeColor;
+                border: 2px solid $themeColor;
+            }
+        }
+
+    }
+    .job-title{
+        font-size: 1.3rem;
+        font-weight: bold;
+        color:$themeColor;
+    }
+}
+
+

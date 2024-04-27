@@ -1,0 +1,44 @@
+[
+  {
+    "position": "Frontend Angular Engineer (CC. Talent - formerly Codingchiefs)",
+    "tenure": "July 2021 - 2024",
+    "responsibilities": [
+      "Build and styled reusable components for askdelphi's learning and performance platform built in angular and .net and ship pixel perfect design for mobile and desktop platform.",
+      "Integrate api's, microservices and third party ui libraries ensuring seamless communication between frontend and backend systems.",
+      "Troubleshoot/debug cross browser issues on chrome and safari.",
+      "Troubleshoot/debug cross platform issues for pwa on android and ios",
+      "Build, configure and write script to enable pwa and offline feature"
+    ]
+  },
+  {
+    "position": "Team Lead Software Engineer (Accenture)",
+    "tenure": "March 2019 - 2021",
+    "responsibilities": [
+      "Design application framework for the development starting point of the developers and provide POC for complex functional requirements of the business. Acted as SME for angular development and UX/UI design.",
+      "Design, develop, and unit test applications in accordance with established standards. And Adhere to high-quality development principles while delivering solutions on-time and on-budget.",
+      "Maintain high standards of software quality within the team by establishing good practices and habits.",
+      "Guide team development efforts towards successful project delivery and providing technical leadership to team-mates through coaching and mentorship that includes identifying and encouraging areas for growth and improvements within the team.",
+      "Collaborate with other software developers, business analysts and software architects to plan, design, develop, test, and maintain web-based business applications.",
+      "Analyze and resolve technical and application problems and Assist in the collection and documentation of user's requirements, development of user stories, estimates and work plans."
+    ]
+  },
+  {
+    "position": "Senior Software Engineer (S&R Membership and Shopping)",
+    "tenure": "April 2014 - 2019",
+    "responsibilities": [
+      "Collaborate with stakeholders for business requirements, objectives and translate those into technical applications and solutions.",
+      "Collaborate with third party software provider to provide and develop inhouse applications and api's, and at the same time to learn and gain knowledge over the new technology.",
+      "Develop and customize software applications and tools using advance development and coding techniques. Manage all phases of application design – from coding and prototyping through system testing, integration and deployment.",
+      "Develop and enhance programs, contributing to solutions that streamlined processes, increased accuracy and lowered time consumption.",
+      "Worked on different technologies and platforms : Web Applications, Android Mobile Applications and Desktop Applications."
+    ]
+  },
+  {
+    "position": "Junior Software Engineer (GS3)",
+    "tenure": "September 2013 - December 2013 (3 Months-Project Based)",
+    "responsibilities": [
+      "Participate in daily standup meeting, practicing agile principles and methodologies.",
+      "Write code and adhere to established coding pattern and principles."
+    ]
+  }
+]
