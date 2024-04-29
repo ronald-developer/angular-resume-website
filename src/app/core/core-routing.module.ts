@@ -11,8 +11,11 @@ const routes: Routes = [
 	// {
 	// 	path: 'home', loadChildren: () => import('../pages/home/home.module').then((m) => m.HomeModule)
 	// },
-  {
+	{
 		path: 'home', loadChildren: () => import('../pages/resume/resume.module').then((m) => m.ResumeModule)
+	},
+	{
+		path: 'projects', loadChildren: () => import('../pages/projects/projects.module').then((m) => m.ProjectsModule)
 	},
 	{
 		path: 'page-not-found',
@@ -26,7 +29,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+	imports: [RouterModule.forRoot(routes)],
+	exports: [RouterModule]
 })
 export class CoreRoutingModule { }

@@ -19,12 +19,12 @@ import { CoreRoutingModule } from './core-routing.module';
 	imports: [
 		CommonModule,
 		SharedModule,
-    CoreRoutingModule
+		CoreRoutingModule
 	],
 	exports: [
 		NavigationHeaderComponent,
 		MainBodyContentComponent,
-    CoreRoutingModule
+		CoreRoutingModule
 	]
 })
 export class CoreModule { }
