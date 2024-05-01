@@ -1,0 +1,29 @@
+[
+	{
+		"title": "Tobacco lab tests",
+		"thumbnail": "./../../../assets/images/tombwe-login.png",
+		"projectLink": "http://tobacco-lab-test.s3-website-us-east-1.amazonaws.com",
+		"description": "Mock version of tobacco lab tests - http requests are being intercepted to use mock data (JSON)",
+		"techStack": [
+			"Angular",
+			".Net core API"
+		]
+	},
+	{
+		"title": "Exim (export/import) prototype",
+		"thumbnail": "./../../../assets/images/exim.png",
+		"projectLink": "http://export-import-exim-prototype.s3-website-us-east-1.amazonaws.com",
+		"techStack": [
+			"Angular"
+		]
+	},
+	{
+		"title": "Weather forecast test",
+		"thumbnail": "./../../../assets/images/openweather-api.png",
+		"projectLink": "http://rons-weather-forecast.s3-website-us-east-1.amazonaws.com",
+		"techStack": [
+			"Angular",
+			"Weather forecast api"
+		]
+	}
+]

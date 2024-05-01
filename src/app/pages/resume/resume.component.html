@@ -31,6 +31,11 @@
               <p class="job-title">
                 {{j.position}}
               </p>
+			  @for(client of j.clients; track client; let index = $index){
+				<p class="text">
+				 Client {{index+1}}: {{client}}
+				</p>
+			  }
               <p class="job-year text">
                 <i class="fa fa-calendar"></i>
                 {{j.tenure}}
