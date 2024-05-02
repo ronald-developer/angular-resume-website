@@ -6,6 +6,7 @@
 			</div>
 		</div>
 	</div>
+	<hr class="section-divider">
 	<div class="page__projects card-columns">
 		<ng-container *ngIf="$projects|async as projects">
 			<div class="card" *ngFor="let p of projects">
@@ -18,7 +19,7 @@
 					</p>
 				</div>
 				<div class="card-footer bg-transparent border-success">
-					<div class="d-flex gap-2">
+					<div class="d-flex gap-2 flex-wrap">
 						<ng-container *ngFor="let skill of p.techStack; let odd = odd">
 							<span class="badge rounded-pill {{badges[odd?'success':'info']}}">{{skill}}</span>
 						</ng-container>
