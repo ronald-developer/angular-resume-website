@@ -1,0 +1,8 @@
+@import "./variables";
+@mixin container-border($thickness) {
+	.app-container--border{
+		// padding: 40px;
+		// border: $thickness solid $border-color-100;
+		// border-radius: 20px;
+	}
+}

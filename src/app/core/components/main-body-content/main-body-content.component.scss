@@ -1,6 +1,6 @@
 @import './../../../../assets/styles/variables';
 @import './../../../../assets/styles/mixins-media';
- .body-content{
+ .body__content{
 	.content-title{
         @include sm {
             flex-direction: column-reverse;

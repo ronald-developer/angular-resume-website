@@ -1,22 +1,32 @@
-<div class="card-columns">
-	<ng-container *ngIf="$projects|async as projects">
-		<div class="card" *ngFor="let p of projects">
-			<img class="card-img-top" [src]="p.thumbnail" alt="Tombwe lab tests">
-			<div class="card-body">
-				<h5 class="card-title"><a [href]="p.projectLink" target="_blank">{{p.title}} <i
-							class="fa fa-external-link"></i></a></h5>
-				<p class="card-text">
-					{{p.description}}
-				</p>
-			</div>
-			<div class="card-footer bg-transparent border-success">
-				<div class="d-flex gap-2">
-					<ng-container *ngFor="let skill of p.techStack; let odd = odd">
-						<span class="badge rounded-pill {{badges[odd?'success':'info']}}">{{skill}}</span>
-					</ng-container>
-				</div>
+<div class="page__container flex-grow">
+	<div class="d-flex">
+		<div class="flex-fill mb-3">
+			<div class="col-lg-12">
+				<p class="title-text m-0">Projects</p>
 			</div>
 		</div>
-	</ng-container>
+	</div>
+	<div class="page__projects card-columns">
+		<ng-container *ngIf="$projects|async as projects">
+			<div class="card" *ngFor="let p of projects">
+				<img class="card-img-top" [src]="p.thumbnail" alt="Tombwe lab tests">
+				<div class="card-body">
+					<h5 class="card-title"><a [href]="p.projectLink" target="_blank">{{p.title}} <i
+								class="fa fa-external-link"></i></a></h5>
+					<p class="card-text">
+						{{p.description}}
+					</p>
+				</div>
+				<div class="card-footer bg-transparent border-success">
+					<div class="d-flex gap-2">
+						<ng-container *ngFor="let skill of p.techStack; let odd = odd">
+							<span class="badge rounded-pill {{badges[odd?'success':'info']}}">{{skill}}</span>
+						</ng-container>
+					</div>
+				</div>
+			</div>
+		</ng-container>
+
+	</div>
 
 </div>

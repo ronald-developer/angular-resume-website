@@ -1,0 +1,6 @@
+@mixin justify-content {
+	.app-justify-content{
+		text-align: justify;
+		text-justify: inter-word;
+	}
+}
