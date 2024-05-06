@@ -2,7 +2,13 @@
 	<div class="page__intro flex-grow" *ngIf="$aboutMe|async as aboutMe">
 		<div class="d-flex app-container--border">
 			<div class="col-lg-12">
-				<p class="title-text m-0">{{aboutMe?.name}}</p>
+				<span class="d-flex">
+					<span class="w-100"><p class="title-text m-0">{{aboutMe?.name}}</p></span>
+					<a href="./../../../assets/data/RonaldJoseResume.pdf" target="_blank">
+						<i role="button" title="download resume" class="fa fa-download"></i>
+					</a>
+
+				</span>
 				<p class="title-sub-text">{{aboutMe?.title}}</p>
 			</div>
 		</div>
