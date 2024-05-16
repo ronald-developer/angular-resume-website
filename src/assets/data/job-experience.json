@@ -8,7 +8,7 @@
 		],
 		"responsibilities": [
 			"Build and styled reusable components for askdelphi's learning and performance platform built in angular and .net and ship pixel perfect design for mobile and desktop platform.",
-			"Integrate api's, microservices and third party ui libraries ensuring seamless communication between frontend and backend systems.",
+			"Build/integrate api's, microservices and third party ui libraries ensuring seamless communication between frontend and backend systems.",
 			"Troubleshoot/debug cross browser issues on chrome and safari.",
 			"Troubleshoot/debug cross platform issues for pwa on android and ios",
 			"Build, configure and write script to enable pwa and offline feature"

@@ -10,7 +10,7 @@
 	<div class="page__projects card-columns">
 		<ng-container *ngIf="$projects|async as projects">
 			<div class="card" *ngFor="let p of projects">
-				<img class="card-img-top" [src]="p.thumbnail" alt="Tombwe lab tests">
+				<img class="card-img-top" [src]="p.thumbnail" [alt]="p.title">
 				<div class="card-body">
 					<h5 class="card-title"><a [href]="p.projectLink" target="_blank">{{p.title}} <i
 								class="fa fa-external-link"></i></a></h5>

@@ -1,8 +1,10 @@
 {
-    "name":"Ronald Bien Jose",
-    "title":"Angular frontend developer",
-    "introductions":[
-    "Hello, and welcome! I'm a passionate software engineer with over a decade of experience as a software developer, dedicated to crafting clean and efficient web applications. My expertise focuses on creating responsive and dynamic user interfaces, leveraging the latest features and best practices of Angular.",
-    "I have a strong background in frontend development, with a keen eye for design and a commitment to delivering high-quality, maintainable code. Whether it's building a new application from scratch or enhancing an existing one, I'm here to help bring your vision to life.",
-    "I'm well-versed in Angular's ecosystem, including RXJS for reactive programming, Angular Material for beautiful UI components, and bootstrap CSS/tailwind CSS framework for modern components and utilities. I also have experience integrating APIs and third-party services, ensuring seamless communication between frontend and backend systems."]
+	"name": "Ronald Bien Jose",
+	"title": "Full stack developer",
+	"introductions": [
+		"Hello, and welcome! I'm a passionate software engineer with over a decade of experience as a software developer, dedicated to crafting clean and efficient web applications. My expertise focuses on creating responsive and dynamic user interfaces, leveraging the latest features and best practices of Angular.",
+		"I have a strong background in frontend and backend development, with a keen eye for design and a commitment to delivering high-quality, maintainable code. Whether it's building a new application from scratch or enhancing an existing one, I'm here to help bring your vision to life.",
+		"I'm well-versed in Angular's ecosystem, including RXJS for reactive programming, Angular Material for beautiful UI components, and bootstrap CSS/tailwind CSS framework for modern components and utilities.",
+		"Aside from building user interfaces, I'm also an experienced .NET backend developer for APIs and microservices, ensuring seamless communication between frontend and backend systems."
+	]
 }

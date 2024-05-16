@@ -11,6 +11,17 @@
 		]
 	},
 	{
+		"title": "Farmer ERP",
+		"thumbnail": "",
+		"projectLink": "",
+		"description": "In-progress",
+		"client": "Ilia Deviatov Software",
+		"techStack": [
+			"Angular",
+			".Net core API"
+		]
+	},
+	{
 		"title": "Exim (export/import) prototype",
 		"thumbnail": "./../../../assets/images/exim.png",
 		"projectLink": "http://export-import-exim-prototype.s3-website-us-east-1.amazonaws.com",
