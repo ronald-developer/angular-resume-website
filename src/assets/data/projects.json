@@ -2,11 +2,13 @@
 	{
 		"title": "Tobacco lab tests",
 		"thumbnail": "./../../../assets/images/tombwe-login.png",
+		"isLiveDemo": true,
 		"projectLink": "http://tobacco-lab-test.s3-website-us-east-1.amazonaws.com",
 		"description": "Mock version of tobacco lab tests - http requests are being intercepted to use mock data (JSON)",
 		"client": "Ilia Deviatov Software",
 		"techStack": [
 			"Angular",
+			"C#",
 			".Net core API"
 		]
 	},
@@ -15,15 +17,18 @@
 		"thumbnail": "",
 		"projectLink": "",
 		"description": "In-progress",
+		"isLiveDemo": true,
 		"client": "Ilia Deviatov Software",
 		"techStack": [
 			"Angular",
+			"C#",
 			".Net core API"
 		]
 	},
 	{
 		"title": "Exim (export/import) prototype",
 		"thumbnail": "./../../../assets/images/exim.png",
+		"isLiveDemo": true,
 		"projectLink": "http://export-import-exim-prototype.s3-website-us-east-1.amazonaws.com",
 		"client": "Upwork",
 		"techStack": [
@@ -33,11 +38,25 @@
 	{
 		"title": "Weather forecast test",
 		"thumbnail": "./../../../assets/images/openweather-api.png",
+		"isLiveDemo": true,
 		"projectLink": "http://rons-weather-forecast.s3-website-us-east-1.amazonaws.com",
 		"client": "--",
 		"techStack": [
 			"Angular",
 			"Weather forecast api"
+		]
+	},
+	{
+		"title": "Publication editing ui",
+		"thumbnail": "",
+		"isLiveDemo": false,
+		"projectLink": "https://www.youtube.com/embed/jAgKT1aPn9Y",
+		"description": "In-progress",
+		"client": "Askdelphi",
+		"techStack": [
+			"Angular",
+			"C#",
+			".Net core API"
 		]
 	}
 ]

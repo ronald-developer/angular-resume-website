@@ -10,7 +10,7 @@ import { JsonDataService } from 'src/app/services/json-data.service';
 })
 export class ProjectsComponent implements OnInit {
 
-	constructor(private jsonDataService: JsonDataService,) { }
+	constructor(private jsonDataService: JsonDataService) { }
 	$projects!: Observable<Project[]>;
 	badges: { [key: string]: string } = { "success": "bg-success", "info": "bg-info" };
 

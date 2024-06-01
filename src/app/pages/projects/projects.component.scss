@@ -1,5 +1,10 @@
 .page__projects{
 	div.card{
 		padding: 10px;
+		&.project__info{
+			.project__info-demo-video iframe{
+				width: -webkit-fill-available;
+			}
+		}
 	}
 }

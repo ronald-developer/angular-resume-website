@@ -4,4 +4,5 @@ export interface Project {
 	projectLink: string;
 	description: string;
 	techStack: string[];
+	isLiveDemo: boolean;
 }

@@ -9,7 +9,7 @@
 	<hr class="section-divider">
 	<div class="page__projects card-columns">
 		<ng-container *ngIf="$projects|async as projects">
-			<div class="card" *ngFor="let p of projects">
+			<div class="card project__info" *ngFor="let p of projects">
 				<img class="card-img-top" [src]="p.thumbnail" [alt]="p.title">
 				<div class="card-body">
 					<h5 class="card-title"><a [href]="p.projectLink" target="_blank">{{p.title}} <i
@@ -17,6 +17,10 @@
 					<p class="card-text">
 						{{p.description}}
 					</p>
+					<div class="project__info-demo-video" *ngIf="!p.isLiveDemo">
+						<iframe [src]="p.projectLink | urlSanitizer">
+						</iframe>
+					</div>
 				</div>
 				<div class="card-footer bg-transparent border-success">
 					<div class="d-flex gap-2 flex-wrap">
